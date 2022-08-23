@@ -66,7 +66,7 @@ experimental-io-uring = ["actix-server/io-uring"]
 actix-codec = "0.5"
 actix-macros = { version = "0.2.3", optional = true }
 actix-rt = { version = "2.6", default-features = false }
-actix-server = "2"
+actix-server = {git="https://github.com/pfrom-vizio/actix-net", branch="loggy_logging", version="2"}
 actix-service = "2"
 actix-utils = "3"
 actix-tls = { version = "3", default-features = false, optional = true }
